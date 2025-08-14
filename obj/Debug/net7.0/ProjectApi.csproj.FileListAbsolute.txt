@@ -44,4 +44,5 @@
 /Users/supanut.ke/Documents/ProjectApi/ProjectApi/bin/Debug/net7.0/Swashbuckle.AspNetCore.SwaggerGen.dll
 /Users/supanut.ke/Documents/ProjectApi/ProjectApi/bin/Debug/net7.0/Swashbuckle.AspNetCore.SwaggerUI.dll
 /Users/supanut.ke/Documents/ProjectApi/ProjectApi/obj/Debug/net7.0/ProjectApi.MvcApplicationPartsAssemblyInfo.cs
+/Users/supanut.ke/Documents/ProjectApi/ProjectApi/obj/Debug/net7.0/ProjectApi.sourcelink.json
 /Users/supanut.ke/Documents/ProjectApi/ProjectApi/obj/Debug/net7.0/ProjectApi.csproj.Up2Date

@@ -84,6 +84,19 @@ namespace ProjectApi.Controllers
 
             return NoContent(); // ส่ง 204 No Content
         }
+        //
+        [HttpGet("search")]
+        public async Task<ActionResult<IEnumerable<Product>>> SearchByName(string name)
+        {
+            var products = await _context.Products
+                .Where(p => p.Name.Contains(name)) // contains = like '%name%'
+                .ToListAsync();
+
+            if (!products.Any())
+                return NotFound();
+
+            return Ok(products);
+        }
     }
 
 
